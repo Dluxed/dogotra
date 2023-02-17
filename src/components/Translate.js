@@ -122,10 +122,10 @@ const Translate = () => {
             </li>
           </ul>
         </div>
-        <button>Translate Text</button>
+        <button id="buttonTrans">Translate Text</button>
       </div>
     </>
   );
-};
+}
 
 export default Translate;

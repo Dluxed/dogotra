@@ -1,13 +1,20 @@
 import "./App.css";
 import Translate from "./components/Translate";
-function App() {
-  return (
-    <nav>
+import Navbar from "./components/Navbar";
 
-    </nav>,
+
+function App() {
+  return (  
+    <div className="App">
+    <>
+      <Navbar />
+    </>
+    
+    
     <>
       <Translate />
     </>
+    </div>
   );
 }
 
